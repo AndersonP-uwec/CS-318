@@ -1,0 +1,37 @@
+h1 {
+    color:black;
+    background-color:whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 2rem;
+}
+h2 {
+    color:silver;
+    background-color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem;
+}
+h3 {
+    font-weight: 500;
+    text-align: left;
+    padding: 1rem;
+    color: saddlebrown;
+    font-size: 2rem;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2rem;
+}
+ul {
+    font-family: fantasy;
+    font-size: 2rem;
+}
+ol {
+    font-family: fantasy;
+    font-size: 2rem;
+}
