@@ -20,7 +20,7 @@ header>nav>a {
     color: #275218;
     text-decoration: none;
     padding: 1rem;
-    display: block;
+    display: block;/*Change to inline-block*/
     border: 1px solid transparent;
 }
 header>nav>a:hover {
@@ -29,6 +29,7 @@ header>nav>a:hover {
     border: 1px solid #fff;
 }
 header>nav {
+    /*The ones need rem after them*/
     padding: 0 0 1 1;
 }
 main {
