@@ -1,0 +1,32 @@
+nav {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+img {
+    width: 350px;
+    border: 50px solid white;
+}
+#menu {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#story {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
