@@ -11,6 +11,15 @@ body{
     display: block;
     bottom: 10.5rem;
     left: 10%;
+    animation: roll 4s ease-in-out infinite alternate ;
+}
+@keyframes roll {
+    from{
+        left: 10%;
+    }
+    to{
+        left: 85%;
+    }
 }
 .rover:after{
     content: url(images/dish.svg);
