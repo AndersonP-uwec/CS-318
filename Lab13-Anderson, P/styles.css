@@ -130,6 +130,7 @@ section:before{
         display: grid;
         grid-template-columns: 20rem auto;
     }
+    /*Header is not a class*/
     .header{
         grid-row: 1/1;
         grid-column: 1/3;
