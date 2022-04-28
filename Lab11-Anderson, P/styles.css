@@ -33,6 +33,7 @@ form{
     max-width: calc(90% - 4rem);
     margin: 1rem auto;
 }
+/*The space between input and the [ is breaking this CSS*/
 input [type="text"], [type="email"], [type="date"], [type="number"], [type="color"]{
     font-size: 1.25rem;
     width: calc(100% - 1rem);
@@ -40,6 +41,7 @@ input [type="text"], [type="email"], [type="date"], [type="number"], [type="colo
     padding: .5rem;
     border-radius: .25rem;
 }
+/*The space between input and the [ is breaking this CSS*/
 input [type="color"]{
     width: 4rem;
     height: 4rem;
@@ -50,6 +52,7 @@ input:focus[type="text"], input:focus[type="email"], input:focus[type="date"], i
     color: white;
     outline: none;
 }
+/*The space between input and the [ is breaking this CSS*/
 input [type="reset"], [type="submit"]{
     font-family: 'Eater', cursive;
     font-size: 1.5rem;
@@ -58,9 +61,11 @@ input [type="reset"], [type="submit"]{
     border: 3px solid yellowgreen;
     margin: 1rem 2rem 0 0;
 }
+/*The space between input and the [ is breaking this CSS*/
 input [type="submit"]{
     background-color: yellowgreen;
 }
+/*The space between input and the [ is breaking this CSS*/
 input [type="reset"]{
     background-color: black;
     color: yellowgreen;
