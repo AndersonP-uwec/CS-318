@@ -171,7 +171,7 @@ footer{
         margin-left: -16rem;
     }
     .call-to-action{
-        padding: 20rem calc((100%-900px)/2) 5rem;/*the minus sign needs space on both sides of it.*/
+        padding: 20rem calc((100% - 900px)/2) 5rem;/*the minus sign needs space on both sides of it.*/
     }
     .call-to-action h2{
         font-size: 5rem;
