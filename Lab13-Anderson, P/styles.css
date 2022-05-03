@@ -131,7 +131,7 @@ section:before{
         grid-template-columns: 20rem auto;
     }
     /*Header is not a class*/
-    .header{
+    .myth{
         grid-row: 1/1;
         grid-column: 1/3;
     }
