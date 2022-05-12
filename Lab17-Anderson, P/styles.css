@@ -1,0 +1,116 @@
+body{
+    background-color: #fdf6e4;
+}
+header>img{
+    width: 50px;
+    left: 100%;
+}
+.button{
+    background-color: #fdf6e4;
+    padding: 16px;
+    border: none;
+    color: #f9545b;
+}
+.menu{
+    position: relative;
+    display: inline-block;
+}
+.links{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: #f9545b;
+}
+.links>a{
+    color: #f9545b;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.links>a:hover{
+    color: #fa7578;
+    text-decoration: underline;
+    background-color: white;
+}
+.menu:hover .links {
+    display: block;}
+nav>img{
+    width: 50px;
+}
+.image{
+    background-image: url(images/croissant.jpg);
+    align-items: center;
+    box-shadow: 5px 5px lightgray;
+    width: 90%;
+    height: 350px;
+}
+h3{
+    color: #f9545b;
+}
+.about{
+    background-color: white;
+    box-shadow: 5px 5px lightgray;
+    color: black;
+}
+.about>img{
+    width: 500px;
+    vertical-align: middle;
+}
+.hours{
+    background-color: white;
+    box-shadow: 5px 5px lightgray;
+    color: black;
+}
+table{
+    padding: 20px;
+}
+.hours>img{
+    width: 500px;
+}
+.goods{
+    background-color: #f9545b;
+    box-shadow: 5px 5px lightgray;
+    color: white;
+}
+.goods>img{
+    width: 50px;
+}
+.order{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px lightgray;
+}
+.order>img{
+    width: 300px;
+}
+form h5{
+    color: #f9545b;
+}
+form input type[submit]{
+    background-color: #f9545b;
+    color: white;
+}
+form input type[text]{
+    border: #2aac92;
+    background-color: #fdf6e4;
+}
+footer{
+    color: white;
+    background-color: #2aac92;
+    text-decoration: underline;
+}
+footer>img{
+    width: 50px;
+    height: 50px;
+}
+.bottom{
+    display: block;
+    left: 100%;
+}
+.socials{
+    width: 50px;
+    height: 50px;
+    display: inline;
+    align-items: right;
+}
