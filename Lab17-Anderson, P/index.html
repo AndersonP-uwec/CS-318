@@ -10,12 +10,17 @@
 <body>
     <header>
         <img src="images/butter-half-logo.svg" alt="Butter Half Logo">
-        <div class="menu"><nav><button class="button">h</button>
-            <div class="links">
-            <a href="about">about</a>
-            <a href="hours">hours</a>
-            <a href="order">order</a><img src="images/order icon.svg" alt="Basket icon for ordering">
-        </nav></div></div>
+        <div class="menu">
+            <nav>
+                <button class="button">h</button>
+                <div class="links">
+                <a href="about">about</a><!--Missing # for the href id-->
+                <a href="hours">hours</a><!--Missing # for the href id-->
+                <a href="order">order</a><!--Missing # for the href id-->
+                <img src="images/order icon.svg" alt="Basket icon for ordering">
+            </nav>
+        </div>
+</div><!--Extra div delete-->
     </header>
     <main>
     <div class="image">
@@ -24,12 +29,12 @@
         You're my butter half"</p>
     </div>
     <div class="about">
-        <h3>About</h3>
+        <h3>About</h3><!--Need id="about" for the links to work-->
         <p>We make all of our food from scratch, ranging from authentic French baked goods to an assortment of American offerings, and we're proud to provide locally sourced items, and premium organic coffees courtesy of Backroads Coffee and Honest Roast Coffee.</p>
         <img src="images/about.png" alt="Fresh baked bread">
     </div>
     <div class="hours">
-        <h3>Hours</h3>
+        <h3>Hours</h3><!--Need id="hours"-->
         <img src="images/timer.svg" alt="A kitchen timer">
         <table>
             <tr>
@@ -52,6 +57,7 @@
     </div>
     <div class="goods">
         <h4>The Goods</h4>
+        <!--Missing alt tag on images-->
         <img src="images/cookie.svg">
         <img src="images/croissanticon.svg">
         <img src="images/bread.svg">
@@ -61,7 +67,7 @@
     </div>
     <div class="order">
         <h5>Turtle Danish</h5>
-        <img src="images/turtle-danish.png" alt="A turtle danish">
+        <img src="images/turtle-danish.png" alt="A turtle danish"><!--I recommend putting the image and the h5 in the form, to keep each item all together in the form.-->
         <form>
             <label for="q1">Qty.</label>
             <input type="text" id="q1" name="q1">
@@ -103,14 +109,17 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-    <footer><div class="bottom">
-        <a href="about">About</a>
-        <a href="hours">Hours</a>
-        <a href="order">The Goods</a></div>
+    <footer>
+        <div class="bottom">
+            <a href="about">About</a>
+            <a href="hours">Hours</a>
+            <a href="order">The Goods</a>
+        </div>
         <div class="socials">
-        <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook icon and link"></a>
-        <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram icon and link"></a>
-        <a href="https://www.pinterest.com"><img src="images/pinterest.svg" alt="Pinterest icon and link"></a></div>
+            <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="Facebook icon and link"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram icon and link"></a>
+            <a href="https://www.pinterest.com"><img src="images/pinterest.svg" alt="Pinterest icon and link"></a>
+        </div>
     </footer></main>
     
 </body>
